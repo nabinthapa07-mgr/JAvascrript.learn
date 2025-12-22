@@ -60,7 +60,7 @@ greets(function () {
 });
 
 // closures
-// function return function returned fn use parent function variable
+// function return function, returned fn use parent function variable
 function hi() {
   let greet = "hi";
   return function () {
