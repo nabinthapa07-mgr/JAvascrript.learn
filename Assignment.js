@@ -14,7 +14,7 @@ let time = parseFloat(prompt("Enter time : "));
 let calculate = (principal, time, rate) => {
   return principal * time * rate;
 };
-let simpleinterst = calculate(principal, rate, time);
+let simpleinterst = calculate(principal, time, rate);
 alert("simpleinterst of given input:" + simpleinterst);
 
 //to add 2 number from user input using arrow function
