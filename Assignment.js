@@ -14,7 +14,7 @@ let time = parseFloat(prompt("Enter time : "));
 let calculate = (principal, time, rate) => {
   return principal * time * rate;
 };
-let simpleinterst = calculate(principal, rate, time);
+let simpleinterst = calculate(principal, time,rate);
 alert("simpleinterst of given input:" + simpleinterst);
 
 //to add 2 number from user input using arrow function
@@ -28,7 +28,7 @@ let addition = add(num1, num2);
 alert("sum of 2 number:" + addition);
 console.log(addition);
 
-to calculate factorial of given number
+//to calculate factorial of given number
 
 let number = parseFloat(prompt("Enter positive number: "));
 let factorial = 1;
